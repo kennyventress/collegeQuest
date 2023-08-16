@@ -1,0 +1,124 @@
+/* Styles for the sticky navbar */
+.navbar {
+    position: sticky;
+    top: 0; /* Stick the navbar to the top of the viewport */
+    z-index: 100; /* Add a z-index to make sure the navbar appears above other elements */
+}
+
+
+body {
+    font-family: 'Domine', serif;
+    background-color:white;
+    color: #333;
+    margin: 0; /* Remove default margin to eliminate extra whitespace */
+   
+}
+
+
+.collegeimage{
+    background-image: url('../BostonCollege1.jpeg');
+    background-repeat: no-repeat;
+    position: center fixed;
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;
+    padding: 50px; /* Add padding to give some space between the form and the background edges */
+    box-sizing: border-box; /* Include padding in the container's total width/height */
+    height: 100vh; /* Set the height to 100vh (viewport height) to take up the whole screen */
+}
+
+
+/* Style the main heading */
+h1 {
+    text-align: center;
+    font-weight: bold;
+    color: black;
+    padding-top: 20px;
+}
+
+.nav-link{
+    color: white;
+}
+
+/* Style the forms for collecting user input */
+form {
+    margin: 20px auto;
+    max-width: 600px;
+    padding: 20px;
+    background-color:white;
+    opacity: 0.9;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the form fields and labels */
+.error-message {
+    color: red;
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+.form-control-label {
+    font-weight: bold;
+    color: black;
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Style the form submit buttons */
+.btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color:black;
+    background-color: lightgrey;
+    
+}
+
+.btn:hover{
+    background-color: cadetblue;
+    color: white
+}
+
+.btn-outline-info {
+    background-color: #007bff;
+}
+
+/* Add some spacing between the forms */
+.form-group + .form-group {
+    margin-top: 20px;
+}
+
+/* Add some margin to the invalid feedback messages */
+.invalid-feedback {
+    margin-top: 5px;
+    color: #dc3545;
+}
+
+/* Style the page footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+}
+
+/* Add some spacing to the page footer */
+footer {
+    margin-top: 50px;
+}
+
+/* Additional styles for the website description */
+.description {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
