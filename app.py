@@ -1,13 +1,14 @@
 from flask import Flask, render_template, url_for, flash, redirect, request, session
 from flask_sqlalchemy import SQLAlchemy
-from collegeQuest.filteredForm.filteredForm import SchoolForm
-from collegeQuest.unfilteredForm import SchoolNameForm
-from collegeQuest.signUpForm import signUp
-from collegeQuest.loginForm import login
-from collegeQuest.singleSchoolData import singleSearch
-from collegeQuest.schoolMatches import multipleSearch
+from collegeQuest.filteredForm import SchoolForm
+from unfilteredForm import SchoolNameForm
+from signUpForm import signUp
+from loginForm import login
+from singleSchoolData import singleSearch
+from schoolMatches import multipleSearch
 import git
 import logging
+
 
 
 app = Flask(__name__)
