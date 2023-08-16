@@ -1,6 +1,6 @@
 from flask import Flask, render_template, url_for, flash, redirect, request, session
 from flask_sqlalchemy import SQLAlchemy
-from collegeQuest.filteredForm import SchoolForm
+from filteredForm import SchoolForm
 from unfilteredForm import SchoolNameForm
 from signUpForm import signUp
 from loginForm import login
